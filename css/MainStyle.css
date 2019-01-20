@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    margin: 3px auto;
+    font-family: "Lobster";
+    font-size: 50px;
+}
+#board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #00ADB5;
+    border: 3px solid rgb(223, 74, 6);
+    }
+.column {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.row {
+    flex: 1;
+    margin: 10px auto;
+    width: 7vw;
+    height: 7vw;
+    max-height: 100px;
+    border: 2px solid #5b0a0a;
+    box-shadow: 2px 2px #440707;
+    border-radius: 50%;
+    background-color: white;
+    min-height: 20px;
+    min-width: 20px;
+    min-width: 20px;
+}
+#players {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 50%;
+}
+#players div {
+    margin: 1% 10%;
+}
+
+.onclickBackgrondPlayer1
+{
+    background-color: red;
+}
+.onclickBackgrondPlayer2
+{
+    background-color: yellow;
+}
+
+.column:hover
+{
+background-color:rgba(248,181,0,0.2);
+cursor: pointer;
+
+
+}
+div span{
+    font-size: 2rem;
+}
+*{
+    font-size: 5vh;
+    text-align: center;
+}
+#score-1{
+    color: red;
+}
+#score-2{
+    color: rgb(179, 179, 0);
+}
