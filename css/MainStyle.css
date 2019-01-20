@@ -1,7 +1,11 @@
+*{
+    font-size: 5vh;
+    text-align: center;
+    font-family: "Lobster";
+}
 h1 {
     text-align: center;
     margin: 3px auto;
-    font-family: "Lobster";
     font-size: 50px;
 }
 #board {
@@ -60,13 +64,6 @@ background-color:rgba(248,181,0,0.2);
 cursor: pointer;
 
 
-}
-div span{
-    font-size: 2rem;
-}
-*{
-    font-size: 5vh;
-    text-align: center;
 }
 #score-1{
     color: red;
